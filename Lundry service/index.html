@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Service</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Laundry Express</h1>
+            <nav>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Laundry Express</h2>
+            <p>Your trusted partner for fast and reliable laundry services. We offer a range of services to meet all your laundry needs.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Standard Wash</h3>
+                <p>Basic laundry services including washing and drying at a competitive price.</p>
+            </div>
+            <div class="service">
+                <h3>Deluxe Wash</h3>
+                <p>Includes washing, drying, and ironing for those who want their clothes to look their best.</p>
+            </div>
+            <div class="service">
+                <h3>Dry Cleaning</h3>
+                <p>Specialized cleaning for delicate fabrics that need extra care.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Standard Wash</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Deluxe Wash</td>
+                        <td>$25</td>
+                    </tr>
+                    <tr>
+                        <td>Dry Cleaning</td>
+                        <td>$30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Laundry Express. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
